@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Price_Non_Negative</fullName>
+    <active>true</active>
+    <errorConditionFormula>Unit_Price__c  &gt; 0</errorConditionFormula>
+    <errorDisplayField>CurrencyIsoCode</errorDisplayField>
+    <errorMessage>Unit Price cannot be negative</errorMessage>
+</ValidationRule>
